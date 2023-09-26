@@ -3,7 +3,7 @@ import{ Fade } from 'react-reveal'
 import { BiDiamond, BiSolidFactory ,  BiWorld} from 'react-icons/bi';
 const About = () => {
   return (
-    <div>
+    <div style={{overflowX: 'hidden'}}>
       <div className="border-line">
       <div className="line"></div>
       <div className="border-heading">ABOUT US </div>

@@ -22,7 +22,7 @@ const Hero = () => {
 
   return (
     
-    <div>
+    <div style={{overflowX: 'hidden'}}>
 
       <div className="hero-width" style={{height:'72vh'}}>
     <Carousel data-bs-theme="dark">
